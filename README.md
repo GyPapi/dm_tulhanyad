@@ -2,6 +2,20 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
+### "Tulajdoni hányad" feature adattisztítás ###
+
+* th_1_per_1 (0/1) feature kreálás
+  * ... metódus: jel tisztítás
+  * ... metódus: "1/1" keresés hátulról darabolás és eval(x), str.count(y) használatával
+
+
+
+
+
+
+
+
+
 ### What is this repository for? ###
 
 * Quick summary
