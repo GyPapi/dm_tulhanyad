@@ -5,8 +5,8 @@ This README would normally document whatever steps are necessary to get your app
 ### "Tulajdoni hányad" feature adattisztítás ###
 
 * th_1_per_1 (0/1) feature kreálás
-  * ... metódus: jel tisztítás
-  * ... metódus: "1/1" keresés hátulról darabolás és eval(x), str.count(y) használatával
+  * th_replace(par1)  : metódus; jel tisztítás
+  * eval_th_more(par2): metódus; "1/1" keresés hátulról darabolás és eval(x), str.count(y) használatával
 
 
 
