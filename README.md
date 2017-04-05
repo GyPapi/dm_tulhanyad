@@ -5,8 +5,8 @@ This README would normally document whatever steps are necessary to get your app
 ## "Tulajdoni hányad" feature adattisztítás ###
 
 ### 2017.04.05
-* Pythonosítottam néhány ponton a for ciklusokat (x in y az == vizsgálat helyett).
-* A darabolós kiértékeléstől (def eval_th_more()) függetlenítettem az írásjelek kitisztítását (def th_replace()), hogy több helyről is lehessen hívni.
+* Pythonosítottam néhány ponton a for ciklusokat (x in y az == vizsgálat helyett). Ismertem, de string változókra nekem eddig nem ment, de most látom, hogy megy.
+* A darabolós kiértékeléstől (def eval_th_more()) függetlenítettem az írásjelek kitisztítását (def th_replace()), hogy önállóan is lehessen hívni.
 * Az adat tisztítást gyorsítottam: a set(string)-el csak az átadott string egyedi jelein halad a for ciklus és vizsgálja meg, hogy az adott írásjel a takarítandó jelek közé tartozik-e. A set miatt csak egyszer.
 * Az x/y tulajdoni hányad visszaíráshoz a def th_replace_devider() metódus az első '/' jel jobb oldalán szereplő számot keresi, mint osztót. Ezt tekintjük a hányados osztójának: th_str_div.
 * Az x/y tulajdoni hányad osztandóját az 'eval_th' és a 'th_str_div' szorzataként képezzük: 'th_str_dvd'.
