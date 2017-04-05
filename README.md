@@ -18,6 +18,8 @@ This README would normally document whatever steps are necessary to get your app
 *
 #### Tervek
 * A  df.astype({'th_str_dvd': str,'th_str_div': str})  kifejezéssel az a célom, hogy stringesítsem a két képzett jellemzőt és képezni tudjam az x/y kifejezést.
+* A x/y tulajdoni hányadok megbízhatóságára jellemző érték visszadadása.
+
 
 ### 2017.03.05
 * th_1_per_1 (0/1) feature kreálás
