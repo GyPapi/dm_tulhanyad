@@ -9,9 +9,15 @@ This README would normally document whatever steps are necessary to get your app
 * A darabolós kiértékeléstől (def eval_th_more()) függetlenítettem az írásjelek kitisztítását (def th_replace()), hogy több helyről is lehessen hívni.
 * Az adat tisztítást gyorsítottam: a set(string)-el csak az átadott string egyedi jelein halad a for ciklus és vizsgálja meg, hogy az adott írásjel a takarítandó jelek közé tartozik-e. A set miatt csak egyszer.
 * Az x/y tulajdoni hányad visszaíráshoz a def th_replace_devider() metódus az első '/' jel jobb oldalán szereplő számot keresi, mint osztót. Ezt tekintjük a hányados osztójának: th_str_div.
-* Az x/y tulajdoni hányad osztandóját az 'eval_th' és a 'th_str_div' szorzataként képezzük.
-* ---
+* Az x/y tulajdoni hányad osztandóját az 'eval_th' és a 'th_str_div' szorzataként képezzük: 'th_str_dvd'.
+* A  def eval_th_more() metódus visszaadott értékeinek megbízhatósága:
+  * sikeres kiértékelés eredményeként float, 
+  * sikertelen kiértékelés, de találunk 1/1 kifejezést a stringben, ezért 1.0 float, 
+  * sikeres kiértékelés, de az érték > 1.0 float (tapasztalás alapján pl. elmaradt '/' jel/jelek miatt). Ha a string tartalmaz '1/1' jel sorozatot, akkor 1.0 float.
+  * minden más esetben None.
 *
+#### Tervek
+* A  df.astype({'th_str_dvd': str,'th_str_div': str})  kifejezéssel az a célom, hogy stringesítsem a két képzett jellemzőt és képezni tudjam az x/y kifejezést.
 
 ### 2017.03.05
 * th_1_per_1 (0/1) feature kreálás
