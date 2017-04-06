@@ -4,6 +4,11 @@ This README would normally document whatever steps are necessary to get your app
 
 ## "Tulajdoni hányad" feature adattisztítás ###
 
+### 2017.04.06
+* def eval_th_more_doubleret(teval_th_more) metódus, amely a tulajdoni hányad értékének és a megbízhatóságának értékpárját adja vissza (érték, minőség) tuple
+* ezután a tuple értékpár felhasználásával származtatjuk az új feature-ket
+
+
 ### 2017.04.05
 * Pythonosítottam néhány ponton a for ciklusokat (x in y az == vizsgálat helyett). Ismertem, de string változókra nekem eddig nem ment, de most látom, hogy megy.
 * A darabolós kiértékeléstől (def eval_th_more()) függetlenítettem az írásjelek kitisztítását (def th_replace()), hogy önállóan is lehessen hívni.
