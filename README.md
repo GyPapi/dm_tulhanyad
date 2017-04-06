@@ -9,8 +9,8 @@ This README would normally document whatever steps are necessary to get your app
 * ezután a tuple értékpár felhasználásával származtatjuk az új feature-ket
 
 #### Tervek
-* Az érték minőség 1, 2, 3 értékei konvertálhatók legyenek string infokká (pl. OK, ...): {1:'OK', 2: 'Félig 1', 3:'Félig 2'}.
-* Még további finomítás kellene az 1/10, 11/100, ... típusú jelsorozatok 1/1-től való megkülönböztatése érdekében.
+* Az érték minőség 1, 2, 3 értékei konvertálhatók legyenek string infókká (pl. OK, ...): {1:'OK', 2: 'Félig 1', 3:'Félig 2'}.
+* Még további finomítás kellene az 1/10, 11/100, ... típusú jelsorozatok 1/1-től való megkülönböztetése érdekében.
 
 
 ### 2017.04.05
