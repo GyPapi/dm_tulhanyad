@@ -5,7 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ## "Tulajdoni hányad" feature adattisztítás ###
 
 ### 2017.04.06
-* def eval_th_more_doubleret(teval_th_more) metódus, amely a tulajdoni hányad értékének és a megbízhatóságának értékpárját adja vissza (érték, minőség) tuple
+* def eval_th_more_doubleret(teval_th_more) metódus, amely a tulajdoni hányad értékének és a megbízhatóságának értékpárját adja vissza:  (érték, minőség) tuple
 * ezután a tuple értékpár felhasználásával származtatjuk az új feature-ket
 
 
