@@ -5,13 +5,13 @@ This README would normally document whatever steps are necessary to get your app
 ## "Tulajdoni hányad" feature adattisztítás ###
 
 ### 2017.04.21
-* def eval_th_more_doubleret(teval_th_more) metódusban 'th_1_per1_keres_strict' tulajdonság bevezetése
+* **def eval_th_more_doubleret(teval_th_more)** metódusban 'th_1_per1_keres_strict' tulajdonság bevezetése
   * =1: az '1/1' sztring laza keresése a sztringben (az eredeti keresés)
   * =2: az '1/1' sztring szigorú keresése a sztringben
-* def th_replace(tth_replace) metódusban a ... .replace('-ed','').replace(' és ','+'). ... kiegészítő helyettesítés bevezetése szokás elemzés alapján
-* def th_replace_devider(tth_replace) metódus módosítása: a split-elés kiterjesztése
-* def th_1_per_1_keres(tth_replace) új metódus: a szigorú keresés metódusa (split-telt list vizsgálata)
-* def th_eval_str_simpler(tth_eval_str) új metódus: egyszerűsítő metódus a 2/2, 6/6, ... =1/1 kifejezés egységesítésére
+* **def th_replace(tth_replace)** metódusban a ... .replace('-ed','').replace(' és ','+'). ... kiegészítő helyettesítés bevezetése szokás elemzés alapján
+* **def th_replace_devider(tth_replace)** metódus módosítása: a split-elés kiterjesztése
+* **def th_1_per_1_keres(tth_replace)** új metódus: a szigorú keresés metódusa (split-telt list vizsgálata)
+* **def th_eval_str_simpler(tth_eval_str)** új metódus: egyszerűsítő metódus a 2/2, 6/6, ... =1/1 kifejezés egységesítésére
   
 
 
